@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <style>
+         *{
+          padding:0px;
+          margin:0px;
+        }
+        .container{
+            margin:10px;
+        }
+        .login{
+           /* background-color:rgb(73, 25, 121); */
+           text-align: center;
+           margin: 70px auto;
+           width:550px;
+           border:1px solid gray;
+
+        }
+       .paraone{
+           margin-left:300px;
+           margin-top:3px;
+           padding:20px;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-size:25px;
+
+       }
+       .form0{
+           display:flex;
+           flex-direction: column;
+           padding:20px;
+       }
+       .data  {
+           border:none;
+           border-bottom: 1px solid gray;
+           margin-bottom: 20px;
+           text-align: end;
+       }
+       input[type="button"]{
+           padding:5px;
+           margin: 10px;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           background-color: white;
+           border: 1px solid gray;
+       }
+       ul{
+           display:flex;
+           flex-direction: row;
+       }
+       .facegoogel .fa{
+           margin: 10px;
+       }
+     
+       
+    </style>
+</head>
+<body>
+    <section class="login">
+        <div class="container">
+            <p class="paraone">تسجيل الدخول</p>
+            
+            <div class="form0">
+                <input type="username"   class="data" placeholder="البريد الالكتروني">
+                <input type="password"  class="data" placeholder="كلمه المرور"> 
+                <input type="button" value="تسجيل الدخول ">
+            </div>
+
+            <p>او يمكنك انشاء الحساب عن طريق</p>
+           
+                <div class="facegoogel">
+                    <span class="fa fa-facebook "></span>
+                   <span class="fa fa-google "></span>
+                </div>
+
+                <div >
+                    <a href="login.html">انشاء حساب
+                    <p> ليس لديك حساب؟</p> 
+                </div>    
+        </div>
+    </section>
+
+
+
+    <script src="js/JQuery-3.3.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
